@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    max-width: 90%;
+    max-width: 1800px;
     margin: auto;
     justify-content: center;
 }
