@@ -1,0 +1,128 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
+#header{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+#lefttop {
+    color: salmon;
+}
+
+.logo{
+    font-size: 20px;
+    display: flex;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px; 
+    font-size: 18px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: rgba(82, 68, 68, 0.705);
+}
+
+nav ul li a:hover{
+    color: brown;
+}
+
+nav ul li:hover{
+    transform: translateY(-2px);
+}
+
+#Home{
+    color: brown;
+}
+
+main {
+    padding: 20px;
+}
+
+.course-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin: auto;
+    justify-content: center;
+    animation-name: course-sect;
+    animation-duration:3s;
+}
+
+@keyframes course-sect {
+    0%   {margin-top: 650px;}
+    100% {margin-top: 10px;}
+}
+
+.course-card {
+    background-color: #fff;
+    width:30%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    height: 370px;
+    border:  2px solid #146da094;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 4s;
+}
+
+.course-card:hover {
+    transform: translateY(-15px);
+}
+
+.course-card img {
+    width: 100%;
+    height: 77%;
+    border-bottom: #000 2px solid;
+}
+
+.course-info {
+    text-decoration: none;
+    margin-top: 8px;
+    line-height: 20px;
+}
+
+.course-info h3 {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.course-info p {
+    margin:0;
+    color: #606060;
+    font-size: 14px;
+    text-align: center;
+}

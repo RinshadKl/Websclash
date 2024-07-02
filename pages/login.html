@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEBSCLASH</title>
+        <link rel="stylesheet" href="../assets/login.css">
+        <link rel="shortcut icon" href="../img/icon.png" type="image/png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="form-container">
+            <div class="left">
+                <img src="../img/websclash.png" alt="">
+            </div>
+            <div class="login-form">
+                <form>
+                    <h2>Join the Course</h2>
+                    <label for="first-name">Name *</label>
+                    <div class="name-container">
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                    </div>
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="someone@example.com" required>
+                    <label for="phone-number">Phone Number *</label>
+                    <div class="phone-container">
+                        <select id="country-code">
+                            <option value="+91">+91 IND</option>
+                            <option value="+1">+1 US</option>
+                            <option value="+61">+61 AUS</option>
+                            <option value="+33">+33 FRA</option>
+                            <option value="+49">+49 DEU</option>
+                            <option value="+81">+81 JPN</option>
+                        </select>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number" required>
+                    </div>
+                    <div class="gender-container">
+                        <label for="gender">Gender</label>
+                        <select id="gender" name="gender">
+                            <option value="">-Select-</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Custom</option>
+                        </select>
+                    </div>
+                    <label for="employment-status">Employment Status</label>
+                    <select id="employment-status" name="employment-status">
+                        <option value="">-Select-</option>
+                        <option value="">Employed</option>
+                        <option value="">Unemployed</option>
+                        <option value="">Student</option>
+                    </select>
+                    <label for="education">Educational qualification</label>
+                    <select id="education" name="education">
+                        <option value="">-Select-</option>
+                        <option value="">Higher Secondary</option>
+                        <option value="">Degree</option>
+                        <option value="">Post Graduation</option>
+                        <option value="">PhD</option>
+                    </select>
+                    <label for="course">Course you are interested in</label>
+                    <select id="course" name="course">
+                        <option value="">-Select-</option>
+                        <option value="">1-Web Design Fundamentals</option>
+                        <option value="">2-HTML and CSS Essentials</option>
+                        <option value="">3-JavaScript for Web Development</option>
+                        <option value="">4-Responsive Web Design</option>
+                        <option value="">5-UI/UX Design</option>
+                        <option value="">6-Front-end Development with React</option>
+                        <option value="">7-Back-end Development with Node.js</option>
+                        <option value="">8-Full-stack Development</option>
+                        <option value="">9-Web Development with WordPress</option>
+                        <option value="">10-Web Development Bootcamp</option>
+                    </select>
+                    <label for="about-you">Tell us about you</label>
+                    <textarea id="about-you" name="about-you"></textarea>
+                    <button type="submit">Apply </button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

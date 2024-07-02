@@ -1,0 +1,163 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover ;
+}
+
+#header{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+#lefttop {
+    color: salmon;
+}
+
+.logo{
+    font-size: 20px;
+    display: flex;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px; 
+    font-size: 18px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: rgba(82, 68, 68, 0.705);
+}
+
+nav ul li a:hover{
+    color: brown;
+}
+
+nav ul li:hover{
+    transform: translateY(-1.5px);
+}
+
+#Home{
+    color: brown;
+}
+
+.main{
+    width: 1000px;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+    margin-top: 50px;
+    background-color: rgba(84, 85, 81, 0.603);
+    border-radius: 25px;
+    animation-name: main;
+    animation-duration: 4s;
+}
+
+@keyframes main{
+   0%{
+    margin-top: -100px;
+   } 
+   100%{
+    margin-top: 50px;
+   }
+}
+
+.left{
+    width: 50%;
+    background-color: #fff;
+    float: left;
+    padding: 20px;
+    display: block;
+    justify-content: space-between;
+    border-radius: 25px;
+    line-height: 50px;
+}
+
+.left h4{
+    margin-left: 15px;
+    color: gray;
+    font-size: x-large;
+}
+
+.left h1{
+    color: brown;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.left p{
+    line-height: 35px;
+}
+
+.right{
+    width: 40%;
+    float: right;
+    padding: 10px;
+}
+
+#img-top{
+    width:385px;
+    height:200px;
+    border-radius: 25px;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5px;
+}
+
+.feature-card {
+    background-color: #fff;
+    width: 46%;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 5px;
+    height: 100%;
+}
+
+.feature-info {
+    text-decoration: none;
+}
+
+.feature-info h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.feature-info p {
+    color: #606060;
+    font-size: 17px;
+    text-align: center;
+}
